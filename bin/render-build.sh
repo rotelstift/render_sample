@@ -6,4 +6,6 @@ bundle install
 bin/rails assets:precompile
 bin/rails assets:clean
 
+npm install
+
 bin/rails db:migrate
