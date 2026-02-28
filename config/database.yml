@@ -87,8 +87,8 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: render_sample_production
-    username: render_sample
+    database: render_sample_f6nq
+    username: render_sample_f6nq_user
     password: <%= ENV["RENDER_SAMPLE_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
